@@ -50,6 +50,14 @@
 		95056F8F2C591295009D404E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F8E2C591295009D404E /* PrimaryButton.swift */; };
 		95056F912C5912FF009D404E /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F902C5912FF009D404E /* View+Extension.swift */; };
 		95056F932C5917F8009D404E /* OTPPopUpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F922C5917F8009D404E /* OTPPopUpItem.swift */; };
+		95056F962C59676C009D404E /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 95056F952C59676C009D404E /* loading.gif */; };
+		95056F982C596796009D404E /* LoadingGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F972C596796009D404E /* LoadingGifView.swift */; };
+		95056F9B2C5967B6009D404E /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F9A2C5967B6009D404E /* GifView.swift */; };
+		95056F9D2C596811009D404E /* ShopfeeLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F9C2C596811009D404E /* ShopfeeLoadingView.swift */; };
+		95056F9F2C5969E2009D404E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F9E2C5969E2009D404E /* SearchView.swift */; };
+		95056FA12C596ADC009D404E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA02C596ADC009D404E /* LoginView.swift */; };
+		95056FA32C596D58009D404E /* Optional+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA22C596D58009D404E /* Optional+extension.swift */; };
+		95056FA52C596D6D009D404E /* Bool+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA42C596D6D009D404E /* Bool+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +124,14 @@
 		95056F8E2C591295009D404E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		95056F902C5912FF009D404E /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		95056F922C5917F8009D404E /* OTPPopUpItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPPopUpItem.swift; sourceTree = "<group>"; };
+		95056F952C59676C009D404E /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		95056F972C596796009D404E /* LoadingGifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingGifView.swift; sourceTree = "<group>"; };
+		95056F9A2C5967B6009D404E /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		95056F9C2C596811009D404E /* ShopfeeLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopfeeLoadingView.swift; sourceTree = "<group>"; };
+		95056F9E2C5969E2009D404E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		95056FA02C596ADC009D404E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		95056FA22C596D58009D404E /* Optional+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+extension.swift"; sourceTree = "<group>"; };
+		95056FA42C596D6D009D404E /* Bool+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +251,7 @@
 		95056F252C58CFDF009D404E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				95056F942C596762009D404E /* loading */,
 				95056F552C58D1F7009D404E /* SwiftGen */,
 				95056F542C58D1EF009D404E /* SwiftgenOutput */,
 				95056F272C58D0FF009D404E /* Fonts */,
@@ -287,6 +304,8 @@
 				95056F652C58EF9C009D404E /* DispatchQueue+Extension.swift */,
 				95056F812C590CBA009D404E /* UIApplication+Extension.swift */,
 				95056F902C5912FF009D404E /* View+Extension.swift */,
+				95056FA22C596D58009D404E /* Optional+extension.swift */,
+				95056FA42C596D6D009D404E /* Bool+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -344,12 +363,15 @@
 		95056F702C58F7F5009D404E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				95056F992C5967AB009D404E /* SubViews */,
 				95056F742C58FA8C009D404E /* CustomButtonView.swift */,
 				95056F712C58F805009D404E /* PageIndicatorView.swift */,
 				95056F792C5901FC009D404E /* TextFieldView.swift */,
 				95056F7F2C59059F009D404E /* TermAndConditionView.swift */,
 				95056F8C2C5911C6009D404E /* PopUpView.swift */,
 				95056F8E2C591295009D404E /* PrimaryButton.swift */,
+				95056F9C2C596811009D404E /* ShopfeeLoadingView.swift */,
+				95056F9E2C5969E2009D404E /* SearchView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -366,17 +388,10 @@
 		95056F7B2C590449009D404E /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				95056F7C2C590454009D404E /* RegisterView */,
-			);
-			path = Authentication;
-			sourceTree = "<group>";
-		};
-		95056F7C2C590454009D404E /* RegisterView */ = {
-			isa = PBXGroup;
-			children = (
+				95056FA02C596ADC009D404E /* LoginView.swift */,
 				95056F7D2C590463009D404E /* RegisterView.swift */,
 			);
-			path = RegisterView;
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		95056F852C59101A009D404E /* Utilities */ = {
@@ -393,6 +408,23 @@
 				95056F8A2C591064009D404E /* TypeAliases+Action.swift */,
 			);
 			path = TypeAliases;
+			sourceTree = "<group>";
+		};
+		95056F942C596762009D404E /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				95056F952C59676C009D404E /* loading.gif */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
+		95056F992C5967AB009D404E /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				95056F972C596796009D404E /* LoadingGifView.swift */,
+				95056F9A2C5967B6009D404E /* GifView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +545,7 @@
 				95056F3F2C58D10E009D404E /* Poppins-ExtraLight.ttf in Resources */,
 				95056F5C2C58D26F009D404E /* swiftgen.yml in Resources */,
 				95056F532C58D1E2009D404E /* Colors.xcassets in Resources */,
+				95056F962C59676C009D404E /* loading.gif in Resources */,
 				95056EFB2C58CDC6009D404E /* Preview Assets.xcassets in Resources */,
 				95056EF82C58CDC6009D404E /* Assets.xcassets in Resources */,
 			);
@@ -563,11 +596,16 @@
 				95056F692C58F090009D404E /* OnboardingScreen.swift in Sources */,
 				95056F722C58F805009D404E /* PageIndicatorView.swift in Sources */,
 				95056F7A2C5901FC009D404E /* TextFieldView.swift in Sources */,
+				95056FA52C596D6D009D404E /* Bool+Extension.swift in Sources */,
+				95056F9F2C5969E2009D404E /* SearchView.swift in Sources */,
 				95056F642C58EE22009D404E /* SplashScreen.swift in Sources */,
+				95056F982C596796009D404E /* LoadingGifView.swift in Sources */,
 				95056F802C59059F009D404E /* TermAndConditionView.swift in Sources */,
+				95056F9D2C596811009D404E /* ShopfeeLoadingView.swift in Sources */,
 				95056F662C58EF9C009D404E /* DispatchQueue+Extension.swift in Sources */,
 				95056F4E2C58D13F009D404E /* PoppinsFonts.swift in Sources */,
 				95056F842C590D13009D404E /* KeyboardHandling.swift in Sources */,
+				95056FA12C596ADC009D404E /* LoginView.swift in Sources */,
 				95056F932C5917F8009D404E /* OTPPopUpItem.swift in Sources */,
 				95056F6C2C58F2FC009D404E /* CustomStyle.swift in Sources */,
 				95056EFD2C58CDC6009D404E /* Persistence.swift in Sources */,
@@ -578,11 +616,13 @@
 				95056F7E2C590463009D404E /* RegisterView.swift in Sources */,
 				95056F8B2C591064009D404E /* TypeAliases+Action.swift in Sources */,
 				95056F512C58D1C1009D404E /* Font+Extension.swift in Sources */,
+				95056F9B2C5967B6009D404E /* GifView.swift in Sources */,
 				95056F822C590CBA009D404E /* UIApplication+Extension.swift in Sources */,
 				95056EF62C58CDC5009D404E /* ContentView.swift in Sources */,
 				95056F002C58CDC6009D404E /* Shopfee.xcdatamodeld in Sources */,
 				95056F782C58FFD8009D404E /* Onboarding.swift in Sources */,
 				95056F8F2C591295009D404E /* PrimaryButton.swift in Sources */,
+				95056FA32C596D58009D404E /* Optional+extension.swift in Sources */,
 				95056F752C58FA8C009D404E /* CustomButtonView.swift in Sources */,
 				95056EF42C58CDC5009D404E /* ShopfeeApp.swift in Sources */,
 			);

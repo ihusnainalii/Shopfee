@@ -19,10 +19,10 @@ extension Onboarding {
                                             image: AssetCatalog.Icons.onboardingChoose.name),
                                  Onboarding(title: "Quickly and easly",
                                             description: "You can place your order quickly and easly without wasting time. You can also schedule orders via your smarthphone.",
-                                            image: AssetCatalog.Icons.onboardingChoose.name),
+                                            image: AssetCatalog.Icons.onboardingQuick.name),
                                  Onboarding(title: "Get and Redeem Voucher",
                                             description: "Exciting prizes await you! Redeem yours by collecting all the points after purchase in the app!",
-                                            image: AssetCatalog.Icons.onboardingChoose.name)]
+                                            image: AssetCatalog.Icons.onboardingRedeem.name)]
 }
 
 
