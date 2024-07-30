@@ -12,6 +12,7 @@ struct RegisterView: View {
     @State var name: String = ""
     @State var handphone: String = ""
     @State var isDisabled: Bool = false
+    @State var verfifyOPT: Bool = false
     
     var body: some View {
         VStack(spacing: 8) {
@@ -41,11 +42,24 @@ struct RegisterView: View {
         }
         .padding()
         .closeKeyboardWhenTap()
+        .disabled(verfifyOPT)
+        .applyIf(verfifyOPT) { view in
+            view.overlay {
+                    PopUpView(
+                        OTPPopUpItem(phoneNumber: "0282765237"),
+                        onPrimaryAction: { 
+                            
+                        }, onSecondaryAction: {
+                            verfifyOPT.toggle()
+                        }
+                    )
+                }
+        }
     }
     
     private var registerButton: some View {
         Button("Register") {
-            
+            verfifyOPT.toggle()
         }
         .buttonStyle(.primary())
         .disabled(isDisabled)
