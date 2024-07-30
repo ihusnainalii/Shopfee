@@ -13,7 +13,7 @@ struct ShopfeeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen().loadView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -90,3 +90,6 @@ fastlane/test_output
 iOSInjectionProject/
 *.stencil
 *.yml
+Shopfee/Shopfee/Resources/SwiftgenOutput/XCAssets+Generated.swift
+*.json
+Shopfee/Shopfee/Helpers/AppFonts/AppFonts.swift

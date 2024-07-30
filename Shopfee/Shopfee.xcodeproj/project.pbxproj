@@ -33,6 +33,23 @@
 		95056F5C2C58D26F009D404E /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 95056F5B2C58D26F009D404E /* swiftgen.yml */; };
 		95056F602C58D2F8009D404E /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F5F2C58D2F8009D404E /* AppFonts.swift */; };
 		95056F622C58D395009D404E /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F612C58D395009D404E /* XCAssets+Generated.swift */; };
+		95056F642C58EE22009D404E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F632C58EE22009D404E /* SplashScreen.swift */; };
+		95056F662C58EF9C009D404E /* DispatchQueue+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F652C58EF9C009D404E /* DispatchQueue+Extension.swift */; };
+		95056F692C58F090009D404E /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F682C58F090009D404E /* OnboardingScreen.swift */; };
+		95056F6C2C58F2FC009D404E /* CustomStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F6B2C58F2FC009D404E /* CustomStyle.swift */; };
+		95056F722C58F805009D404E /* PageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F712C58F805009D404E /* PageIndicatorView.swift */; };
+		95056F752C58FA8C009D404E /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F742C58FA8C009D404E /* CustomButtonView.swift */; };
+		95056F782C58FFD8009D404E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F772C58FFD8009D404E /* Onboarding.swift */; };
+		95056F7A2C5901FC009D404E /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F792C5901FC009D404E /* TextFieldView.swift */; };
+		95056F7E2C590463009D404E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F7D2C590463009D404E /* RegisterView.swift */; };
+		95056F802C59059F009D404E /* TermAndConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F7F2C59059F009D404E /* TermAndConditionView.swift */; };
+		95056F822C590CBA009D404E /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F812C590CBA009D404E /* UIApplication+Extension.swift */; };
+		95056F842C590D13009D404E /* KeyboardHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F832C590D13009D404E /* KeyboardHandling.swift */; };
+		95056F8B2C591064009D404E /* TypeAliases+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F8A2C591064009D404E /* TypeAliases+Action.swift */; };
+		95056F8D2C5911C6009D404E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F8C2C5911C6009D404E /* PopUpView.swift */; };
+		95056F8F2C591295009D404E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F8E2C591295009D404E /* PrimaryButton.swift */; };
+		95056F912C5912FF009D404E /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F902C5912FF009D404E /* View+Extension.swift */; };
+		95056F932C5917F8009D404E /* OTPPopUpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F922C5917F8009D404E /* OTPPopUpItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +99,23 @@
 		95056F5B2C58D26F009D404E /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		95056F5F2C58D2F8009D404E /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 		95056F612C58D395009D404E /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		95056F632C58EE22009D404E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		95056F652C58EF9C009D404E /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
+		95056F682C58F090009D404E /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
+		95056F6B2C58F2FC009D404E /* CustomStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyle.swift; sourceTree = "<group>"; };
+		95056F712C58F805009D404E /* PageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorView.swift; sourceTree = "<group>"; };
+		95056F742C58FA8C009D404E /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		95056F772C58FFD8009D404E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		95056F792C5901FC009D404E /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		95056F7D2C590463009D404E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		95056F7F2C59059F009D404E /* TermAndConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermAndConditionView.swift; sourceTree = "<group>"; };
+		95056F812C590CBA009D404E /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		95056F832C590D13009D404E /* KeyboardHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandling.swift; sourceTree = "<group>"; };
+		95056F8A2C591064009D404E /* TypeAliases+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TypeAliases+Action.swift"; sourceTree = "<group>"; };
+		95056F8C2C5911C6009D404E /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		95056F8E2C591295009D404E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		95056F902C5912FF009D404E /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		95056F922C5917F8009D404E /* OTPPopUpItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPPopUpItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +166,7 @@
 		95056EF22C58CDC5009D404E /* Shopfee */ = {
 			isa = PBXGroup;
 			children = (
+				95056F852C59101A009D404E /* Utilities */,
 				95056F262C58D0C6009D404E /* Helpers */,
 				95056F252C58CFDF009D404E /* Resources */,
 				95056F232C58CFC5009D404E /* App */,
@@ -168,8 +203,12 @@
 		95056F222C58CDCF009D404E /* FrontendLayer */ = {
 			isa = PBXGroup;
 			children = (
+				95056F7B2C590449009D404E /* Authentication */,
+				95056F702C58F7F5009D404E /* Common */,
+				95056F672C58F07F009D404E /* Onboarding */,
 				95056EF52C58CDC5009D404E /* ContentView.swift */,
 				95056EF32C58CDC5009D404E /* ShopfeeApp.swift */,
+				95056F632C58EE22009D404E /* SplashScreen.swift */,
 			);
 			path = FrontendLayer;
 			sourceTree = "<group>";
@@ -177,6 +216,7 @@
 		95056F232C58CFC5009D404E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				95056F762C58FFCE009D404E /* ModelLayer */,
 				95056F242C58CFD1009D404E /* BackendLayer */,
 				95056F222C58CDCF009D404E /* FrontendLayer */,
 			);
@@ -208,6 +248,7 @@
 		95056F262C58D0C6009D404E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				95056F6A2C58F2E1009D404E /* Modifier */,
 				95056F5E2C58D2ED009D404E /* AppFonts */,
 				95056F4F2C58D1B9009D404E /* Extensions */,
 				95056F4C2C58D132009D404E /* Enum */,
@@ -243,6 +284,9 @@
 			isa = PBXGroup;
 			children = (
 				95056F502C58D1C1009D404E /* Font+Extension.swift */,
+				95056F652C58EF9C009D404E /* DispatchQueue+Extension.swift */,
+				95056F812C590CBA009D404E /* UIApplication+Extension.swift */,
+				95056F902C5912FF009D404E /* View+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -278,6 +322,77 @@
 				95056F5F2C58D2F8009D404E /* AppFonts.swift */,
 			);
 			path = AppFonts;
+			sourceTree = "<group>";
+		};
+		95056F672C58F07F009D404E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				95056F682C58F090009D404E /* OnboardingScreen.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		95056F6A2C58F2E1009D404E /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				95056F6B2C58F2FC009D404E /* CustomStyle.swift */,
+				95056F832C590D13009D404E /* KeyboardHandling.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		95056F702C58F7F5009D404E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				95056F742C58FA8C009D404E /* CustomButtonView.swift */,
+				95056F712C58F805009D404E /* PageIndicatorView.swift */,
+				95056F792C5901FC009D404E /* TextFieldView.swift */,
+				95056F7F2C59059F009D404E /* TermAndConditionView.swift */,
+				95056F8C2C5911C6009D404E /* PopUpView.swift */,
+				95056F8E2C591295009D404E /* PrimaryButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		95056F762C58FFCE009D404E /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				95056F772C58FFD8009D404E /* Onboarding.swift */,
+				95056F922C5917F8009D404E /* OTPPopUpItem.swift */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		95056F7B2C590449009D404E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				95056F7C2C590454009D404E /* RegisterView */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		95056F7C2C590454009D404E /* RegisterView */ = {
+			isa = PBXGroup;
+			children = (
+				95056F7D2C590463009D404E /* RegisterView.swift */,
+			);
+			path = RegisterView;
+			sourceTree = "<group>";
+		};
+		95056F852C59101A009D404E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				95056F892C59105A009D404E /* TypeAliases */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		95056F892C59105A009D404E /* TypeAliases */ = {
+			isa = PBXGroup;
+			children = (
+				95056F8A2C591064009D404E /* TypeAliases+Action.swift */,
+			);
+			path = TypeAliases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,13 +560,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95056F692C58F090009D404E /* OnboardingScreen.swift in Sources */,
+				95056F722C58F805009D404E /* PageIndicatorView.swift in Sources */,
+				95056F7A2C5901FC009D404E /* TextFieldView.swift in Sources */,
+				95056F642C58EE22009D404E /* SplashScreen.swift in Sources */,
+				95056F802C59059F009D404E /* TermAndConditionView.swift in Sources */,
+				95056F662C58EF9C009D404E /* DispatchQueue+Extension.swift in Sources */,
 				95056F4E2C58D13F009D404E /* PoppinsFonts.swift in Sources */,
+				95056F842C590D13009D404E /* KeyboardHandling.swift in Sources */,
+				95056F932C5917F8009D404E /* OTPPopUpItem.swift in Sources */,
+				95056F6C2C58F2FC009D404E /* CustomStyle.swift in Sources */,
 				95056EFD2C58CDC6009D404E /* Persistence.swift in Sources */,
+				95056F912C5912FF009D404E /* View+Extension.swift in Sources */,
 				95056F602C58D2F8009D404E /* AppFonts.swift in Sources */,
+				95056F8D2C5911C6009D404E /* PopUpView.swift in Sources */,
 				95056F622C58D395009D404E /* XCAssets+Generated.swift in Sources */,
+				95056F7E2C590463009D404E /* RegisterView.swift in Sources */,
+				95056F8B2C591064009D404E /* TypeAliases+Action.swift in Sources */,
 				95056F512C58D1C1009D404E /* Font+Extension.swift in Sources */,
+				95056F822C590CBA009D404E /* UIApplication+Extension.swift in Sources */,
 				95056EF62C58CDC5009D404E /* ContentView.swift in Sources */,
 				95056F002C58CDC6009D404E /* Shopfee.xcdatamodeld in Sources */,
+				95056F782C58FFD8009D404E /* Onboarding.swift in Sources */,
+				95056F8F2C591295009D404E /* PrimaryButton.swift in Sources */,
+				95056F752C58FA8C009D404E /* CustomButtonView.swift in Sources */,
 				95056EF42C58CDC5009D404E /* ShopfeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
