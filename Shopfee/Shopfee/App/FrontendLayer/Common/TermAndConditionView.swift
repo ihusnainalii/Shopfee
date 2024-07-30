@@ -2,7 +2,7 @@
 //  TermAndConditionView.swift
 //  Shopfee
 //
-//  Created by Husnain Ali - ILI on 30/07/2024.
+//  Created by Husnain Ali on 30/07/2024.
 //
 
 import SwiftUI
