@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95056EF42C58CDC5009D404E /* ShopfeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056EF32C58CDC5009D404E /* ShopfeeApp.swift */; };
+		95056EF62C58CDC5009D404E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056EF52C58CDC5009D404E /* ContentView.swift */; };
+		95056EF82C58CDC6009D404E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95056EF72C58CDC6009D404E /* Assets.xcassets */; };
+		95056EFB2C58CDC6009D404E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95056EFA2C58CDC6009D404E /* Preview Assets.xcassets */; };
+		95056EFD2C58CDC6009D404E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056EFC2C58CDC6009D404E /* Persistence.swift */; };
+		95056F002C58CDC6009D404E /* Shopfee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95056EFE2C58CDC6009D404E /* Shopfee.xcdatamodeld */; };
+		95056F0A2C58CDC6009D404E /* ShopfeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F092C58CDC6009D404E /* ShopfeeTests.swift */; };
+		95056F142C58CDC6009D404E /* ShopfeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F132C58CDC6009D404E /* ShopfeeUITests.swift */; };
+		95056F162C58CDC6009D404E /* ShopfeeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F152C58CDC6009D404E /* ShopfeeUITestsLaunchTests.swift */; };
+		95056F3B2C58D10E009D404E /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F292C58D10D009D404E /* Poppins-ExtraBold.ttf */; };
+		95056F3C2C58D10E009D404E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F2A2C58D10D009D404E /* Poppins-SemiBold.ttf */; };
+		95056F3D2C58D10E009D404E /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F2B2C58D10D009D404E /* Poppins-Light.ttf */; };
+		95056F3F2C58D10E009D404E /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F2D2C58D10E009D404E /* Poppins-ExtraLight.ttf */; };
+		95056F402C58D10E009D404E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F2E2C58D10E009D404E /* Poppins-Bold.ttf */; };
+		95056F462C58D10E009D404E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F342C58D10E009D404E /* Poppins-Medium.ttf */; };
+		95056F482C58D10E009D404E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F362C58D10E009D404E /* Poppins-Regular.ttf */; };
+		95056F4A2C58D10E009D404E /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F382C58D10E009D404E /* Poppins-Black.ttf */; };
+		95056F4B2C58D10E009D404E /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95056F392C58D10E009D404E /* Poppins-Thin.ttf */; };
+		95056F4E2C58D13F009D404E /* PoppinsFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F4D2C58D13F009D404E /* PoppinsFonts.swift */; };
+		95056F512C58D1C1009D404E /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F502C58D1C1009D404E /* Font+Extension.swift */; };
+		95056F532C58D1E2009D404E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95056F522C58D1E2009D404E /* Colors.xcassets */; };
+		95056F582C58D21A009D404E /* xcassets-swiftui.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 95056F572C58D21A009D404E /* xcassets-swiftui.stencil */; };
+		95056F5A2C58D249009D404E /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95056F592C58D249009D404E /* Icons.xcassets */; };
+		95056F5C2C58D26F009D404E /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 95056F5B2C58D26F009D404E /* swiftgen.yml */; };
+		95056F602C58D2F8009D404E /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F5F2C58D2F8009D404E /* AppFonts.swift */; };
+		95056F622C58D395009D404E /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056F612C58D395009D404E /* XCAssets+Generated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95056F062C58CDC6009D404E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95056EE82C58CDC5009D404E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95056EEF2C58CDC5009D404E;
+			remoteInfo = Shopfee;
+		};
+		95056F102C58CDC6009D404E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95056EE82C58CDC5009D404E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95056EEF2C58CDC5009D404E;
+			remoteInfo = Shopfee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95056EF02C58CDC5009D404E /* Shopfee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopfee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95056EF32C58CDC5009D404E /* ShopfeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopfeeApp.swift; sourceTree = "<group>"; };
+		95056EF52C58CDC5009D404E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95056EF72C58CDC6009D404E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95056EFA2C58CDC6009D404E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95056EFC2C58CDC6009D404E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		95056EFF2C58CDC6009D404E /* Shopfee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shopfee.xcdatamodel; sourceTree = "<group>"; };
+		95056F052C58CDC6009D404E /* ShopfeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopfeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95056F092C58CDC6009D404E /* ShopfeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopfeeTests.swift; sourceTree = "<group>"; };
+		95056F0F2C58CDC6009D404E /* ShopfeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopfeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95056F132C58CDC6009D404E /* ShopfeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopfeeUITests.swift; sourceTree = "<group>"; };
+		95056F152C58CDC6009D404E /* ShopfeeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopfeeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95056F292C58D10D009D404E /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		95056F2A2C58D10D009D404E /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		95056F2B2C58D10D009D404E /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		95056F2D2C58D10E009D404E /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		95056F2E2C58D10E009D404E /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		95056F342C58D10E009D404E /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		95056F362C58D10E009D404E /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		95056F382C58D10E009D404E /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		95056F392C58D10E009D404E /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		95056F4D2C58D13F009D404E /* PoppinsFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinsFonts.swift; sourceTree = "<group>"; };
+		95056F502C58D1C1009D404E /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		95056F522C58D1E2009D404E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		95056F572C58D21A009D404E /* xcassets-swiftui.stencil */ = {isa = PBXFileReference; lastKnownFileType = text; path = "xcassets-swiftui.stencil"; sourceTree = "<group>"; };
+		95056F592C58D249009D404E /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		95056F5B2C58D26F009D404E /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		95056F5F2C58D2F8009D404E /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		95056F612C58D395009D404E /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95056EED2C58CDC5009D404E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95056F022C58CDC6009D404E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95056F0C2C58CDC6009D404E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95056EE72C58CDC5009D404E = {
+			isa = PBXGroup;
+			children = (
+				95056EF22C58CDC5009D404E /* Shopfee */,
+				95056F082C58CDC6009D404E /* ShopfeeTests */,
+				95056F122C58CDC6009D404E /* ShopfeeUITests */,
+				95056EF12C58CDC5009D404E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95056EF12C58CDC5009D404E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95056EF02C58CDC5009D404E /* Shopfee.app */,
+				95056F052C58CDC6009D404E /* ShopfeeTests.xctest */,
+				95056F0F2C58CDC6009D404E /* ShopfeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95056EF22C58CDC5009D404E /* Shopfee */ = {
+			isa = PBXGroup;
+			children = (
+				95056F262C58D0C6009D404E /* Helpers */,
+				95056F252C58CFDF009D404E /* Resources */,
+				95056F232C58CFC5009D404E /* App */,
+				95056EF92C58CDC6009D404E /* Preview Content */,
+			);
+			path = Shopfee;
+			sourceTree = "<group>";
+		};
+		95056EF92C58CDC6009D404E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95056EFA2C58CDC6009D404E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95056F082C58CDC6009D404E /* ShopfeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				95056F092C58CDC6009D404E /* ShopfeeTests.swift */,
+			);
+			path = ShopfeeTests;
+			sourceTree = "<group>";
+		};
+		95056F122C58CDC6009D404E /* ShopfeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95056F132C58CDC6009D404E /* ShopfeeUITests.swift */,
+				95056F152C58CDC6009D404E /* ShopfeeUITestsLaunchTests.swift */,
+			);
+			path = ShopfeeUITests;
+			sourceTree = "<group>";
+		};
+		95056F222C58CDCF009D404E /* FrontendLayer */ = {
+			isa = PBXGroup;
+			children = (
+				95056EF52C58CDC5009D404E /* ContentView.swift */,
+				95056EF32C58CDC5009D404E /* ShopfeeApp.swift */,
+			);
+			path = FrontendLayer;
+			sourceTree = "<group>";
+		};
+		95056F232C58CFC5009D404E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				95056F242C58CFD1009D404E /* BackendLayer */,
+				95056F222C58CDCF009D404E /* FrontendLayer */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		95056F242C58CFD1009D404E /* BackendLayer */ = {
+			isa = PBXGroup;
+			children = (
+				95056EFC2C58CDC6009D404E /* Persistence.swift */,
+				95056EFE2C58CDC6009D404E /* Shopfee.xcdatamodeld */,
+			);
+			path = BackendLayer;
+			sourceTree = "<group>";
+		};
+		95056F252C58CFDF009D404E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95056F552C58D1F7009D404E /* SwiftGen */,
+				95056F542C58D1EF009D404E /* SwiftgenOutput */,
+				95056F272C58D0FF009D404E /* Fonts */,
+				95056EF72C58CDC6009D404E /* Assets.xcassets */,
+				95056F522C58D1E2009D404E /* Colors.xcassets */,
+				95056F592C58D249009D404E /* Icons.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95056F262C58D0C6009D404E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95056F5E2C58D2ED009D404E /* AppFonts */,
+				95056F4F2C58D1B9009D404E /* Extensions */,
+				95056F4C2C58D132009D404E /* Enum */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		95056F272C58D0FF009D404E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95056F382C58D10E009D404E /* Poppins-Black.ttf */,
+				95056F2E2C58D10E009D404E /* Poppins-Bold.ttf */,
+				95056F292C58D10D009D404E /* Poppins-ExtraBold.ttf */,
+				95056F2D2C58D10E009D404E /* Poppins-ExtraLight.ttf */,
+				95056F2B2C58D10D009D404E /* Poppins-Light.ttf */,
+				95056F342C58D10E009D404E /* Poppins-Medium.ttf */,
+				95056F362C58D10E009D404E /* Poppins-Regular.ttf */,
+				95056F2A2C58D10D009D404E /* Poppins-SemiBold.ttf */,
+				95056F392C58D10E009D404E /* Poppins-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		95056F4C2C58D132009D404E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				95056F4D2C58D13F009D404E /* PoppinsFonts.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		95056F4F2C58D1B9009D404E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95056F502C58D1C1009D404E /* Font+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		95056F542C58D1EF009D404E /* SwiftgenOutput */ = {
+			isa = PBXGroup;
+			children = (
+				95056F612C58D395009D404E /* XCAssets+Generated.swift */,
+			);
+			path = SwiftgenOutput;
+			sourceTree = "<group>";
+		};
+		95056F552C58D1F7009D404E /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				95056F562C58D200009D404E /* stencils */,
+				95056F5B2C58D26F009D404E /* swiftgen.yml */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		95056F562C58D200009D404E /* stencils */ = {
+			isa = PBXGroup;
+			children = (
+				95056F572C58D21A009D404E /* xcassets-swiftui.stencil */,
+			);
+			path = stencils;
+			sourceTree = "<group>";
+		};
+		95056F5E2C58D2ED009D404E /* AppFonts */ = {
+			isa = PBXGroup;
+			children = (
+				95056F5F2C58D2F8009D404E /* AppFonts.swift */,
+			);
+			path = AppFonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95056EEF2C58CDC5009D404E /* Shopfee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95056F192C58CDC6009D404E /* Build configuration list for PBXNativeTarget "Shopfee" */;
+			buildPhases = (
+				95056EEC2C58CDC5009D404E /* Sources */,
+				95056EED2C58CDC5009D404E /* Frameworks */,
+				95056EEE2C58CDC5009D404E /* Resources */,
+				95056F5D2C58D29E009D404E /* SwiftGen */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shopfee;
+			productName = Shopfee;
+			productReference = 95056EF02C58CDC5009D404E /* Shopfee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95056F042C58CDC6009D404E /* ShopfeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95056F1C2C58CDC6009D404E /* Build configuration list for PBXNativeTarget "ShopfeeTests" */;
+			buildPhases = (
+				95056F012C58CDC6009D404E /* Sources */,
+				95056F022C58CDC6009D404E /* Frameworks */,
+				95056F032C58CDC6009D404E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95056F072C58CDC6009D404E /* PBXTargetDependency */,
+			);
+			name = ShopfeeTests;
+			productName = ShopfeeTests;
+			productReference = 95056F052C58CDC6009D404E /* ShopfeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95056F0E2C58CDC6009D404E /* ShopfeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95056F1F2C58CDC6009D404E /* Build configuration list for PBXNativeTarget "ShopfeeUITests" */;
+			buildPhases = (
+				95056F0B2C58CDC6009D404E /* Sources */,
+				95056F0C2C58CDC6009D404E /* Frameworks */,
+				95056F0D2C58CDC6009D404E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95056F112C58CDC6009D404E /* PBXTargetDependency */,
+			);
+			name = ShopfeeUITests;
+			productName = ShopfeeUITests;
+			productReference = 95056F0F2C58CDC6009D404E /* ShopfeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95056EE82C58CDC5009D404E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					95056EEF2C58CDC5009D404E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					95056F042C58CDC6009D404E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 95056EEF2C58CDC5009D404E;
+					};
+					95056F0E2C58CDC6009D404E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 95056EEF2C58CDC5009D404E;
+					};
+				};
+			};
+			buildConfigurationList = 95056EEB2C58CDC5009D404E /* Build configuration list for PBXProject "Shopfee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95056EE72C58CDC5009D404E;
+			productRefGroup = 95056EF12C58CDC5009D404E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95056EEF2C58CDC5009D404E /* Shopfee */,
+				95056F042C58CDC6009D404E /* ShopfeeTests */,
+				95056F0E2C58CDC6009D404E /* ShopfeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95056EEE2C58CDC5009D404E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95056F3C2C58D10E009D404E /* Poppins-SemiBold.ttf in Resources */,
+				95056F582C58D21A009D404E /* xcassets-swiftui.stencil in Resources */,
+				95056F5A2C58D249009D404E /* Icons.xcassets in Resources */,
+				95056F402C58D10E009D404E /* Poppins-Bold.ttf in Resources */,
+				95056F4A2C58D10E009D404E /* Poppins-Black.ttf in Resources */,
+				95056F482C58D10E009D404E /* Poppins-Regular.ttf in Resources */,
+				95056F3D2C58D10E009D404E /* Poppins-Light.ttf in Resources */,
+				95056F4B2C58D10E009D404E /* Poppins-Thin.ttf in Resources */,
+				95056F3B2C58D10E009D404E /* Poppins-ExtraBold.ttf in Resources */,
+				95056F462C58D10E009D404E /* Poppins-Medium.ttf in Resources */,
+				95056F3F2C58D10E009D404E /* Poppins-ExtraLight.ttf in Resources */,
+				95056F5C2C58D26F009D404E /* swiftgen.yml in Resources */,
+				95056F532C58D1E2009D404E /* Colors.xcassets in Resources */,
+				95056EFB2C58CDC6009D404E /* Preview Assets.xcassets in Resources */,
+				95056EF82C58CDC6009D404E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95056F032C58CDC6009D404E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95056F0D2C58CDC6009D404E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95056F5D2C58D29E009D404E /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Running SwiftGen with specified swiftgen.yml...\"\n \n# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n \nif which swiftgen >/dev/null; then\n  swiftgen config run --verbose --config \"${PROJECT_DIR}/Shopfee/Resources/SwiftGen/swiftgen.yml\"\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95056EEC2C58CDC5009D404E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95056F4E2C58D13F009D404E /* PoppinsFonts.swift in Sources */,
+				95056EFD2C58CDC6009D404E /* Persistence.swift in Sources */,
+				95056F602C58D2F8009D404E /* AppFonts.swift in Sources */,
+				95056F622C58D395009D404E /* XCAssets+Generated.swift in Sources */,
+				95056F512C58D1C1009D404E /* Font+Extension.swift in Sources */,
+				95056EF62C58CDC5009D404E /* ContentView.swift in Sources */,
+				95056F002C58CDC6009D404E /* Shopfee.xcdatamodeld in Sources */,
+				95056EF42C58CDC5009D404E /* ShopfeeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95056F012C58CDC6009D404E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95056F0A2C58CDC6009D404E /* ShopfeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95056F0B2C58CDC6009D404E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95056F142C58CDC6009D404E /* ShopfeeUITests.swift in Sources */,
+				95056F162C58CDC6009D404E /* ShopfeeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95056F072C58CDC6009D404E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95056EEF2C58CDC5009D404E /* Shopfee */;
+			targetProxy = 95056F062C58CDC6009D404E /* PBXContainerItemProxy */;
+		};
+		95056F112C58CDC6009D404E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95056EEF2C58CDC5009D404E /* Shopfee */;
+			targetProxy = 95056F102C58CDC6009D404E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95056F172C58CDC6009D404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95056F182C58CDC6009D404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95056F1A2C58CDC6009D404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shopfee/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shopfee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95056F1B2C58CDC6009D404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shopfee/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shopfee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95056F1D2C58CDC6009D404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShopfeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopfee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shopfee";
+			};
+			name = Debug;
+		};
+		95056F1E2C58CDC6009D404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShopfeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopfee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shopfee";
+			};
+			name = Release;
+		};
+		95056F202C58CDC6009D404E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShopfeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shopfee;
+			};
+			name = Debug;
+		};
+		95056F212C58CDC6009D404E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShopfeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shopfee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95056EEB2C58CDC5009D404E /* Build configuration list for PBXProject "Shopfee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95056F172C58CDC6009D404E /* Debug */,
+				95056F182C58CDC6009D404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95056F192C58CDC6009D404E /* Build configuration list for PBXNativeTarget "Shopfee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95056F1A2C58CDC6009D404E /* Debug */,
+				95056F1B2C58CDC6009D404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95056F1C2C58CDC6009D404E /* Build configuration list for PBXNativeTarget "ShopfeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95056F1D2C58CDC6009D404E /* Debug */,
+				95056F1E2C58CDC6009D404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95056F1F2C58CDC6009D404E /* Build configuration list for PBXNativeTarget "ShopfeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95056F202C58CDC6009D404E /* Debug */,
+				95056F212C58CDC6009D404E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95056EFE2C58CDC6009D404E /* Shopfee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95056EFF2C58CDC6009D404E /* Shopfee.xcdatamodel */,
+			);
+			currentVersion = 95056EFF2C58CDC6009D404E /* Shopfee.xcdatamodel */;
+			path = Shopfee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95056EE82C58CDC5009D404E /* Project object */;
+}
