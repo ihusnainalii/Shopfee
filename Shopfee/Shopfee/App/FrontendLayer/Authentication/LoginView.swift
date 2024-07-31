@@ -13,6 +13,7 @@ struct LoginView: View {
     @State var isDisabled: Bool = true
     @State var verfifyOPT: Bool = false
     @State var enableLoadingView: Bool = false
+    @State var enterPin: Bool = false
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -35,20 +36,6 @@ struct LoginView: View {
             }
             .padding()
             .closeKeyboardWhenTap()
-            .disabled(verfifyOPT)
-            .applyIf(verfifyOPT) { view in
-                view.overlay {
-                    PopUpView(
-                        .otp(to: phoneNumber),
-                        onPrimaryAction: {
-                            verfifyOPT.toggle()
-                            enableLoadingView.toggle()
-                        }, onSecondaryAction: {
-                            verfifyOPT.toggle()
-                        }
-                    )
-                }
-            }
             .onChange(of: phoneNumber, { _, _ in
                 checkIfButtonShouldEnable()
             })
@@ -56,8 +43,14 @@ struct LoginView: View {
                 ShopfeeLoadingView(title: "Please wait a minute,",
                                    subtitle: "we will send you the OTP code.",
                                    enableLoadingView: $enableLoadingView)
+                .onDisappear {
+                    enterPin.toggle()
+                }
             })
             .navigationBarBackButtonHidden()
+            .navigationDestination(isPresented: $enterPin) {
+                PinView(viewModel: EnterPinViewModel())
+            }
         }
     }
     
@@ -67,7 +60,7 @@ struct LoginView: View {
     
     private var registerButton: some View {
         Button("Login") {
-            verfifyOPT.toggle()
+            enableLoadingView.toggle()
         }
         .buttonStyle(.primary())
         .disabled(isDisabled)

@@ -58,6 +58,17 @@
 		95056FA12C596ADC009D404E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA02C596ADC009D404E /* LoginView.swift */; };
 		95056FA32C596D58009D404E /* Optional+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA22C596D58009D404E /* Optional+extension.swift */; };
 		95056FA52C596D6D009D404E /* Bool+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA42C596D6D009D404E /* Bool+Extension.swift */; };
+		95056FA72C5A69E9009D404E /* OTPTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA62C5A69E9009D404E /* OTPTextFieldView.swift */; };
+		95056FA92C5A6A33009D404E /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FA82C5A6A33009D404E /* OTPTextField.swift */; };
+		95056FAB2C5A6A69009D404E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FAA2C5A6A69009D404E /* String+Extension.swift */; };
+		95056FAD2C5A6B25009D404E /* ConfirmOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FAC2C5A6B25009D404E /* ConfirmOTPView.swift */; };
+		95056FAF2C5A700C009D404E /* CustomizeNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FAE2C5A700C009D404E /* CustomizeNavigation.swift */; };
+		95056FB12C5A731A009D404E /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FB02C5A731A009D404E /* CustomBackButton.swift */; };
+		95056FB32C5A7735009D404E /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FB22C5A7735009D404E /* PinView.swift */; };
+		95056FB52C5A7852009D404E /* PinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FB42C5A7852009D404E /* PinTextField.swift */; };
+		95056FB82C5A78DA009D404E /* CreatePinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FB72C5A78DA009D404E /* CreatePinViewModel.swift */; };
+		95056FBB2C5A790A009D404E /* PinViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FBA2C5A790A009D404E /* PinViewModelProtocol.swift */; };
+		95AA7AD92C5AD02E00C280C4 /* EnterPinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AD82C5AD02E00C280C4 /* EnterPinViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +143,17 @@
 		95056FA02C596ADC009D404E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		95056FA22C596D58009D404E /* Optional+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+extension.swift"; sourceTree = "<group>"; };
 		95056FA42C596D6D009D404E /* Bool+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extension.swift"; sourceTree = "<group>"; };
+		95056FA62C5A69E9009D404E /* OTPTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldView.swift; sourceTree = "<group>"; };
+		95056FA82C5A6A33009D404E /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		95056FAA2C5A6A69009D404E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		95056FAC2C5A6B25009D404E /* ConfirmOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOTPView.swift; sourceTree = "<group>"; };
+		95056FAE2C5A700C009D404E /* CustomizeNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeNavigation.swift; sourceTree = "<group>"; };
+		95056FB02C5A731A009D404E /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		95056FB22C5A7735009D404E /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		95056FB42C5A7852009D404E /* PinTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinTextField.swift; sourceTree = "<group>"; };
+		95056FB72C5A78DA009D404E /* CreatePinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePinViewModel.swift; sourceTree = "<group>"; };
+		95056FBA2C5A790A009D404E /* PinViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewModelProtocol.swift; sourceTree = "<group>"; };
+		95AA7AD82C5AD02E00C280C4 /* EnterPinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +328,7 @@
 				95056F902C5912FF009D404E /* View+Extension.swift */,
 				95056FA22C596D58009D404E /* Optional+extension.swift */,
 				95056FA42C596D6D009D404E /* Bool+Extension.swift */,
+				95056FAA2C5A6A69009D404E /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -356,6 +379,8 @@
 			children = (
 				95056F6B2C58F2FC009D404E /* CustomStyle.swift */,
 				95056F832C590D13009D404E /* KeyboardHandling.swift */,
+				95056FAE2C5A700C009D404E /* CustomizeNavigation.swift */,
+				95056FB02C5A731A009D404E /* CustomBackButton.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -372,6 +397,8 @@
 				95056F8E2C591295009D404E /* PrimaryButton.swift */,
 				95056F9C2C596811009D404E /* ShopfeeLoadingView.swift */,
 				95056F9E2C5969E2009D404E /* SearchView.swift */,
+				95056FA62C5A69E9009D404E /* OTPTextFieldView.swift */,
+				95056FB42C5A7852009D404E /* PinTextField.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -388,8 +415,13 @@
 		95056F7B2C590449009D404E /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				95AA7AD72C5AD01F00C280C4 /* EnterPin */,
+				95056FB92C5A7901009D404E /* PinViewModelProtocol */,
+				95056FB62C5A78CB009D404E /* CreatePin */,
 				95056FA02C596ADC009D404E /* LoginView.swift */,
 				95056F7D2C590463009D404E /* RegisterView.swift */,
+				95056FB22C5A7735009D404E /* PinView.swift */,
+				95056FAC2C5A6B25009D404E /* ConfirmOTPView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -423,8 +455,33 @@
 			children = (
 				95056F972C596796009D404E /* LoadingGifView.swift */,
 				95056F9A2C5967B6009D404E /* GifView.swift */,
+				95056FA82C5A6A33009D404E /* OTPTextField.swift */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		95056FB62C5A78CB009D404E /* CreatePin */ = {
+			isa = PBXGroup;
+			children = (
+				95056FB72C5A78DA009D404E /* CreatePinViewModel.swift */,
+			);
+			path = CreatePin;
+			sourceTree = "<group>";
+		};
+		95056FB92C5A7901009D404E /* PinViewModelProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				95056FBA2C5A790A009D404E /* PinViewModelProtocol.swift */,
+			);
+			path = PinViewModelProtocol;
+			sourceTree = "<group>";
+		};
+		95AA7AD72C5AD01F00C280C4 /* EnterPin */ = {
+			isa = PBXGroup;
+			children = (
+				95AA7AD82C5AD02E00C280C4 /* EnterPinViewModel.swift */,
+			);
+			path = EnterPin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -597,23 +654,31 @@
 				95056F722C58F805009D404E /* PageIndicatorView.swift in Sources */,
 				95056F7A2C5901FC009D404E /* TextFieldView.swift in Sources */,
 				95056FA52C596D6D009D404E /* Bool+Extension.swift in Sources */,
+				95056FB32C5A7735009D404E /* PinView.swift in Sources */,
 				95056F9F2C5969E2009D404E /* SearchView.swift in Sources */,
 				95056F642C58EE22009D404E /* SplashScreen.swift in Sources */,
 				95056F982C596796009D404E /* LoadingGifView.swift in Sources */,
+				95056FAD2C5A6B25009D404E /* ConfirmOTPView.swift in Sources */,
 				95056F802C59059F009D404E /* TermAndConditionView.swift in Sources */,
+				95056FAB2C5A6A69009D404E /* String+Extension.swift in Sources */,
 				95056F9D2C596811009D404E /* ShopfeeLoadingView.swift in Sources */,
 				95056F662C58EF9C009D404E /* DispatchQueue+Extension.swift in Sources */,
+				95056FB52C5A7852009D404E /* PinTextField.swift in Sources */,
 				95056F4E2C58D13F009D404E /* PoppinsFonts.swift in Sources */,
 				95056F842C590D13009D404E /* KeyboardHandling.swift in Sources */,
+				95056FAF2C5A700C009D404E /* CustomizeNavigation.swift in Sources */,
 				95056FA12C596ADC009D404E /* LoginView.swift in Sources */,
 				95056F932C5917F8009D404E /* OTPPopUpItem.swift in Sources */,
 				95056F6C2C58F2FC009D404E /* CustomStyle.swift in Sources */,
 				95056EFD2C58CDC6009D404E /* Persistence.swift in Sources */,
 				95056F912C5912FF009D404E /* View+Extension.swift in Sources */,
 				95056F602C58D2F8009D404E /* AppFonts.swift in Sources */,
+				95AA7AD92C5AD02E00C280C4 /* EnterPinViewModel.swift in Sources */,
+				95056FB12C5A731A009D404E /* CustomBackButton.swift in Sources */,
 				95056F8D2C5911C6009D404E /* PopUpView.swift in Sources */,
 				95056F622C58D395009D404E /* XCAssets+Generated.swift in Sources */,
 				95056F7E2C590463009D404E /* RegisterView.swift in Sources */,
+				95056FB82C5A78DA009D404E /* CreatePinViewModel.swift in Sources */,
 				95056F8B2C591064009D404E /* TypeAliases+Action.swift in Sources */,
 				95056F512C58D1C1009D404E /* Font+Extension.swift in Sources */,
 				95056F9B2C5967B6009D404E /* GifView.swift in Sources */,
@@ -622,9 +687,12 @@
 				95056F002C58CDC6009D404E /* Shopfee.xcdatamodeld in Sources */,
 				95056F782C58FFD8009D404E /* Onboarding.swift in Sources */,
 				95056F8F2C591295009D404E /* PrimaryButton.swift in Sources */,
+				95056FA72C5A69E9009D404E /* OTPTextFieldView.swift in Sources */,
 				95056FA32C596D58009D404E /* Optional+extension.swift in Sources */,
 				95056F752C58FA8C009D404E /* CustomButtonView.swift in Sources */,
 				95056EF42C58CDC5009D404E /* ShopfeeApp.swift in Sources */,
+				95056FBB2C5A790A009D404E /* PinViewModelProtocol.swift in Sources */,
+				95056FA92C5A6A33009D404E /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
