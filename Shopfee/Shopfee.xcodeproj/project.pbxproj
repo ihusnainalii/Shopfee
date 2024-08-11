@@ -69,6 +69,13 @@
 		95056FB82C5A78DA009D404E /* CreatePinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FB72C5A78DA009D404E /* CreatePinViewModel.swift */; };
 		95056FBB2C5A790A009D404E /* PinViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95056FBA2C5A790A009D404E /* PinViewModelProtocol.swift */; };
 		95AA7AD92C5AD02E00C280C4 /* EnterPinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AD82C5AD02E00C280C4 /* EnterPinViewModel.swift */; };
+		95AA7AE52C5D0DD200C280C4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AE42C5D0DD200C280C4 /* TabBarView.swift */; };
+		95AA7AE72C5D0E0B00C280C4 /* TabBarViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AE62C5D0E0B00C280C4 /* TabBarViewModelProtocol.swift */; };
+		95AA7AE92C5D0E2E00C280C4 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AE82C5D0E2E00C280C4 /* TabBarItem.swift */; };
+		95AA7AEB2C5D0E6400C280C4 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AEA2C5D0E6400C280C4 /* TabBarViewModel.swift */; };
+		95AA7AED2C5D0F1400C280C4 /* CartEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AEC2C5D0F1400C280C4 /* CartEntity.swift */; };
+		95AA7AEF2C5D0F2D00C280C4 /* FilterPickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AEE2C5D0F2D00C280C4 /* FilterPickerItem.swift */; };
+		95AA7AF12C5D0F4F00C280C4 /* ProductExtraEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AA7AF02C5D0F4F00C280C4 /* ProductExtraEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +161,13 @@
 		95056FB72C5A78DA009D404E /* CreatePinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePinViewModel.swift; sourceTree = "<group>"; };
 		95056FBA2C5A790A009D404E /* PinViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewModelProtocol.swift; sourceTree = "<group>"; };
 		95AA7AD82C5AD02E00C280C4 /* EnterPinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewModel.swift; sourceTree = "<group>"; };
+		95AA7AE42C5D0DD200C280C4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		95AA7AE62C5D0E0B00C280C4 /* TabBarViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModelProtocol.swift; sourceTree = "<group>"; };
+		95AA7AE82C5D0E2E00C280C4 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		95AA7AEA2C5D0E6400C280C4 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		95AA7AEC2C5D0F1400C280C4 /* CartEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartEntity.swift; sourceTree = "<group>"; };
+		95AA7AEE2C5D0F2D00C280C4 /* FilterPickerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPickerItem.swift; sourceTree = "<group>"; };
+		95AA7AF02C5D0F4F00C280C4 /* ProductExtraEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExtraEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +255,7 @@
 		95056F222C58CDCF009D404E /* FrontendLayer */ = {
 			isa = PBXGroup;
 			children = (
+				95AA7AE32C5D0DCB00C280C4 /* TabBarView */,
 				95056F7B2C590449009D404E /* Authentication */,
 				95056F702C58F7F5009D404E /* Common */,
 				95056F672C58F07F009D404E /* Onboarding */,
@@ -408,6 +423,9 @@
 			children = (
 				95056F772C58FFD8009D404E /* Onboarding.swift */,
 				95056F922C5917F8009D404E /* OTPPopUpItem.swift */,
+				95AA7AEC2C5D0F1400C280C4 /* CartEntity.swift */,
+				95AA7AEE2C5D0F2D00C280C4 /* FilterPickerItem.swift */,
+				95AA7AF02C5D0F4F00C280C4 /* ProductExtraEntity.swift */,
 			);
 			path = ModelLayer;
 			sourceTree = "<group>";
@@ -482,6 +500,17 @@
 				95AA7AD82C5AD02E00C280C4 /* EnterPinViewModel.swift */,
 			);
 			path = EnterPin;
+			sourceTree = "<group>";
+		};
+		95AA7AE32C5D0DCB00C280C4 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				95AA7AE42C5D0DD200C280C4 /* TabBarView.swift */,
+				95AA7AE62C5D0E0B00C280C4 /* TabBarViewModelProtocol.swift */,
+				95AA7AE82C5D0E2E00C280C4 /* TabBarItem.swift */,
+				95AA7AEA2C5D0E6400C280C4 /* TabBarViewModel.swift */,
+			);
+			path = TabBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -652,6 +681,7 @@
 			files = (
 				95056F692C58F090009D404E /* OnboardingScreen.swift in Sources */,
 				95056F722C58F805009D404E /* PageIndicatorView.swift in Sources */,
+				95AA7AED2C5D0F1400C280C4 /* CartEntity.swift in Sources */,
 				95056F7A2C5901FC009D404E /* TextFieldView.swift in Sources */,
 				95056FA52C596D6D009D404E /* Bool+Extension.swift in Sources */,
 				95056FB32C5A7735009D404E /* PinView.swift in Sources */,
@@ -677,13 +707,18 @@
 				95056FB12C5A731A009D404E /* CustomBackButton.swift in Sources */,
 				95056F8D2C5911C6009D404E /* PopUpView.swift in Sources */,
 				95056F622C58D395009D404E /* XCAssets+Generated.swift in Sources */,
+				95AA7AEF2C5D0F2D00C280C4 /* FilterPickerItem.swift in Sources */,
 				95056F7E2C590463009D404E /* RegisterView.swift in Sources */,
+				95AA7AE92C5D0E2E00C280C4 /* TabBarItem.swift in Sources */,
 				95056FB82C5A78DA009D404E /* CreatePinViewModel.swift in Sources */,
 				95056F8B2C591064009D404E /* TypeAliases+Action.swift in Sources */,
 				95056F512C58D1C1009D404E /* Font+Extension.swift in Sources */,
 				95056F9B2C5967B6009D404E /* GifView.swift in Sources */,
+				95AA7AF12C5D0F4F00C280C4 /* ProductExtraEntity.swift in Sources */,
 				95056F822C590CBA009D404E /* UIApplication+Extension.swift in Sources */,
 				95056EF62C58CDC5009D404E /* ContentView.swift in Sources */,
+				95AA7AE52C5D0DD200C280C4 /* TabBarView.swift in Sources */,
+				95AA7AE72C5D0E0B00C280C4 /* TabBarViewModelProtocol.swift in Sources */,
 				95056F002C58CDC6009D404E /* Shopfee.xcdatamodeld in Sources */,
 				95056F782C58FFD8009D404E /* Onboarding.swift in Sources */,
 				95056F8F2C591295009D404E /* PrimaryButton.swift in Sources */,
@@ -692,6 +727,7 @@
 				95056F752C58FA8C009D404E /* CustomButtonView.swift in Sources */,
 				95056EF42C58CDC5009D404E /* ShopfeeApp.swift in Sources */,
 				95056FBB2C5A790A009D404E /* PinViewModelProtocol.swift in Sources */,
+				95AA7AEB2C5D0E6400C280C4 /* TabBarViewModel.swift in Sources */,
 				95056FA92C5A6A33009D404E /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
